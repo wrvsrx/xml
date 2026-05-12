@@ -1,0 +1,12 @@
+name = "xml"
+version = "0.1.0-dev"
+defaultTargets = ["Xml"]
+testDriver = "XmlTest"
+
+[[lean_lib]]
+name = "Xml"
+defaultFacets = ["static"]
+
+[[lean_lib]]
+name = "XmlTest"
+globs = [ "XmlTest.+" ]

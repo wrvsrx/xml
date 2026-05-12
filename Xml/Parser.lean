@@ -14,7 +14,6 @@ public section
 open System
 open Lean
 
-namespace Lean
 namespace Xml
 
 open Std.Internal.Parsec

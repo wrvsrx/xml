@@ -10,7 +10,6 @@ import Init.Data.Ord.String
 
 public section
 
-namespace Lean
 namespace Xml
 
 @[expose] def Attributes := Std.TreeMap String String
